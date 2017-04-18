@@ -14,6 +14,10 @@
 
 /*以上為顏色設計用*/
 
+*{
+    box-sizing: border-box;
+}
+
 .navbar{
     margin-bottom: 0px
 }
@@ -79,6 +83,42 @@
     max-height: 580px;
 }
 
+.item .SS17::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 50%;
+    bottom: 0;
+    width: 515px;
+    background-color: rgba(91, 113, 157, 0.29);
+}
+
+.item .SS17::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: auto;
+    bottom: 0;
+    width: 515px;
+    background-color: rgba(157, 91, 91, 0.29);
+}
+
+.item .header-text{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+        
+    color: #fff;
+    width: 96%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+    z-index: 20;
+}
+
 @media screen and (max-width: 768px) {
     .carousel-inner .item img{
         width: 100%;
@@ -87,7 +127,13 @@
 
 /*以上為carousel*/
 
+
+
+
 /*以下為右側巡列*/
+.rightnav{
+    padding: 30px 40px 0px;
+}
 
 ul.nav-tabs.affix{
     top: 30px; /* Set the top position of pinned element */
@@ -107,14 +153,16 @@ ul.nav-tabs.affix{
 .nav-tabs > li > a {
     border: none;
     color: #2d6381;
+    line-height: 15px
 }
 
 .nav-tabs > li.header{
     margin-right: 2px;
-    line-height: 28px;
-    color: #2d6381;
+    line-height: 20px;
+    color: #11435f;
     font-weight: 200;
     padding-top: 5px;
+    text-align: left;
 }
 
 .nav-tabs > li.active > a,
@@ -142,19 +190,105 @@ ul.nav-tabs.affix{
 .nav-tabs > li:hover > a::after {
     transform: scale(1);
 }
-/**/
+
 .tab-nav > li > a::after {
     background: #21527d none repeat scroll 0% 0%;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
+/*以上為右側巡列*/
+
+
+/*以下為 showcase*/
 
 .showcase h3{
     font-weight: 200;
 }
 
 .showbox{
-    height: 500px;
-    /*background-color: antiquewhite;*/
-    /*border: 1px solid red;*/
+    height: 675px;
+    width: 800px;
+    background: white;
+    padding: 3px;
 }
+
+.showbox img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.bigbox{
+    width: 40%;
+    height: 100%;
+    border: 3px solid white;
+    float: left;
+    
+    background: white;
+}
+
+.bigbox img{
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.bigbox1{
+    width: 30%;
+    float: left;
+    height: 100%;
+    background: white;
+}
+
+.photobox{
+    border: 3px solid white;
+    background: #555;
+    overflow: hidden;
+}
+.box4_27{
+    width: 100%;
+    height: 14.8%;
+}
+
+.box7_27{
+    width: 100%;
+    height: 27.8%;
+}
+
+.box4_9{
+    width: 100%;
+    height: 44.4%;
+}
+
+.box2_7{
+    width: 100%;
+    height: 15.8%;
+}
+
+.box3_7{
+    width: 100%;
+    height: 24%;
+}
+
+/*以上為 showcase*/
+
+/*以下為footer*/
+.footer{
+    padding: 10px 5px 45px 5px;
+    background: #a9a199;
+}
+
+.footer-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px 15px 0px 5px;
+}
+
+.footer-ul li{
+    
+}
+
+/*以上為footer*/
+
+
+/**/
+

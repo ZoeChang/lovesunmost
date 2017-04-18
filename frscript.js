@@ -1,6 +1,6 @@
 // carousel 調整速度
 $(function(){
-    $('.carousel').carousel({interval: 200});
+    $('.carousel').carousel({interval: 1000});
 });
 
 
@@ -12,7 +12,7 @@ $(function(){
        var picsrc;
        picsrc = 'hello';
        document.getElementById("demo").innerHTML = picsrc;
-   }); 
+   });
 });
 
 */
@@ -22,8 +22,8 @@ $(function(){
         var smsrc = $(this).attr("src").substr(18,1);
         var picsrc = 'data/newarrival/00' + smsrc + 'en.jpg';
         var $illus = $('#illus');
-        
+
         $illus.attr("src" , picsrc );
     });
-       
-}); 
+
+});

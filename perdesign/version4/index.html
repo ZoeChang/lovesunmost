@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang=zh-Hant>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    
+    <meta name=description content="">
+    <meta name=author content="">
+    <link rel=icon href=/Content/AssetsBS3/img/favicon.ico>
+    <title>Just Try~</title>
+    <!-- BS CSS and JS -->
+    <link href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css rel=stylesheet>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- jQ JS-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <!-- jQ UI JS and CSS-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <!-- Begin top nav bar -->
+    <nav class="navbar navbar-default navbar-static-top" role=navigation>
+       <!-- Begin nav bar container-->
+        <div class="container">
+           <!-- nav bar in sm screen-->
+            <div class="navbar-header">
+                <button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#navbar aria-expanded=false aria-controls=navbar>
+                    <span class=sr-only>Toggle navigation</span>
+                    <span class=icon-bar></span>
+                    <span class=icon-bar></span>
+                    <span class=icon-bar></span>
+                </button>
+                <a class="navbar-brand brand-text" href=#>
+                    <p class="brand-text">loveSUNmost</p>
+                </a>
+            </div>
+            
+            <!-- nav bar in md screen-->
+            <div id=navbar class="navbar-collapse collapse">
+               <!-- middle side-->
+                <ul class="nav navbar-nav">
+                    <li class=active><a href=#>Home</a></li>
+                    <li><a href=#>最新上架</a></li>
+                    <li><a href=#>LOOKBOOK</a></li>
+                    <li class=dropdown><a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-expanded=false>商品分類<span class=caret></span></a>
+                        <ul class=dropdown-menu role=menu>
+                            <li class=dropdown-header>TOPS</li>
+                            <li><a href=#>短袖</a></li>
+                            <li><a href=#>無袖</a></li>
+                            <li class=divider></li>
+                            <li class=dropdown-header>BOTTOMS</li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- right side-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=/bs3/Examples/navbar>Line</a>
+                    <li><a href=/bs3/Examples/navbar-static-top>Facebook</a>
+                    <li class=active><a href=/bs3/Examples/navbar-fixed-top>About us<span class=sr-only>(current)</span></a>
+                </ul>
+            </div>
+        </div>
+        <!-- End nav bar container-->
+     </nav>
+    <!-- End top nav bar -->
+    
+    <!-- Begin Jumbotron -->
+    <div class="jumbotron board">
+        <div class="container upcoming">
+           <img src="https://lh3.googleusercontent.com/-vCv_vG6Y9o8/VWcrZeN3GII/AAAAAAAARzs/O9uLdxiVacw/w1920-h1080/image.jpg" alt="">
+            <div class="header-text">
+                <p>SS17</p>
+                <p>NEW ARRIVIAL</p>
+                <P>on April 2017</P>
+            </div>
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+    
+    <!-- Begin catalog -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 img-block">
+                <img src="data/1595.jpg" alt="" class="img-responsive">
+                <div class="showup">
+                    <h3>#6016002-92</h3>
+                    <h2>可愛圖案Ｔ恤</h2>
+                    <div class="showdetail">SHOP NOW</div>
+                </div>
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1596.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1597.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1598.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1599.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1600.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-4 img-block">
+                <img src="data/1601.jpg" alt="" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <!-- End catalog -->
+    
+    <!-- Begin dialog -->
+    <div id="dialog">
+        <!-- Begin left part放圖片 可用slick -->
+        <div class="photo">
+            <div class="big"></div>
+            <div class="sycingbar"></div>
+        </div>
+        <!-- End left part -->
+        <!-- Begin right part -->
+        <div class="detail">
+            <ul id="proddes">Product Description
+                <li id="pattern">Product No.</li>
+                <li id="category">Category:</li>
+                <li id="sizerun">Size:</li>
+                <li>Color and No.
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th width="80px">Color</th>
+                            <th>Prod No.</th>
+                        </tr>
+                        <tbody id="colorlist"></tbody>
+                    </table>
+                </li>
+            </ul>
+        </div>
+        <!-- End right part -->
+    </div>
+    <!-- End dialog -->
+    
+    
+    
+    <!-- Begin footer -->
+    <footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <!--Begin first col with 5 offset -->
+            <div class="col-sm-2 col-md-offset-5">
+                <h5>CUSTOMER CARE</h5>
+                <ul class="footer-ul">
+                    <li>Contact Us</li>
+                    <li>Shipping Info</li>
+                    <li>Payment Info</li>
+                    <li>Order Status</li>
+                    <li>Return & Refunds</li>
+                </ul>
+            </div>
+            <!-- End first col -->
+            <!-- Begin second col -->
+            <div class="col-sm-2">
+                <h5>LoveSUNmost</h5>
+                <ul class="footer-ul">
+                    <li>About Us</li>
+                    <li>Terms</li>
+                    <li>News</li>
+                    <li>Privacy Notice</li>
+                </ul>
+            </div>
+            <!-- End second col -->
+            <!-- Begin final col -->
+            <div class="col-sm-3">
+                <h5>FIND US</h5>
+                <ul class="footer-ul">
+                  <li>Phone : +886-988-888-888</li>
+                  <li>Mon. to Fri. AM 9:30 ~ PM 6:00</li>
+                  <li>Email : service@lovesunmost.com</li>
+                </ul>
+            </div>
+            <!-- End final col -->
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End container -->
+    </footer>
+    <!-- End footer -->
+
+
+    <!-- My JS -->
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
